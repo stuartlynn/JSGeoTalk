@@ -83,583 +83,395 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Intro to Web Mapping + GIS</h1>
-					<h3>Girl Develop It 26 Aug 2015</h3>
+					<h1>Torque: beyond points</h1>
+					<h3>JSGeo</h3>
 					<p>
-						<small>Created by Stuart Lynn / <a href="http://twitter.com/stuart_lybb">@stuart_lynn</a></small>
+						<small>Stuart Lynn / <a href="http://twitter.com/stuart_lybb">@stuart_lynn</a></small>
 					</p>
 				</section>
 
-				<section>
-					<p>Follow allong here : <a href='http://stuartlynn.github.io/GDIChicagoWorkshop/#/'>http://stuartlynn.github.io/GDIChicagoWorkshop/#/</a></p>
-				</section>
 
 
 				<section>
-				<h2>Stuart Lynn</h2>
-				<h3>Map Scientist</h3>
-
-				<div>
-					<img width=200 src='http://www.history-map.com/picture/005/pictures/World-Map-the-001.jpg'/>
-					<p style='paddin:10px;margin:0px'>+</p>
-					<img width=100 src='https://pbs.twimg.com/profile_images/510984202343297024/5zFWeSu7.png'/>
-					<p>=</p>
-				</div>
-				<h4>Your guess is as good as mine</h4>
-			</section>
-
-			<section>
-				<h2>CartoDB</h2>
-				<img src='https://avatars1.githubusercontent.com/u/1799254?v=3&s=200'/>
-			</section>
-
-
-
-			<section>
-					<p>
-						Maps are great!
-					</p>
+					<h2>Stuart Lynn</h2>
+					<h3>Map Scientist</h3>
+					<img src='https://avatars1.githubusercontent.com/u/1799254?v=3&s=200'/>
 				</section>
 
 				<section>
-					<h2>
-						Help us find places(bars)
-					</h2>
-					<img src='images/find.png' />
+					<h1>World is</h1>
+					<h2>Space</h2>
+					<h2>+</h2>
+					<h2>Time</h2>
 				</section>
 
 				<section>
-					<h2>
-						Help us navigate to places(other bars)
-					</h2>
-					<img src='images/navigate.png' />
-
+					<iframe width="100%" height="520" frameborder="0" src="https://team.cartodb.com/u/stuartlynn/viz/90fcd41a-15d7-11e5-b63d-0e6e1df11cbf/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+				</section>
+				<section>
+					<iframe width="100%" height="520" frameborder="0" src="https://team.cartodb.com/u/stuartlynn/viz/40accd80-5db7-11e5-89a8-0e43f3deba5a/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 				</section>
 
 				<section>
-					<p>Maps can also be beautiful</p>
-				</section>
-
-				<section>
-					<img src='https://myhappydance.files.wordpress.com/2013/03/ancient_wallpapers_483.jpg'/>
-				</section>
-
-				<section>
-					<img src='https://espliego.files.wordpress.com/2008/01/1500px-carta_marina.jpeg'/>
-				</section>
-
-				<section>
-					<img src='http://i740.photobucket.com/albums/xx45/aurora_r/Oxford.png'/>
+					<iframe width="100%" height="520" frameborder="0" src="https://inbo.cartodb.com/u/lifewatch/viz/88c30be4-1063-11e5-a9ae-0e853d047bba/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 				</section>
 
 
 				<section>
-					<h2>Points on a map</h2>
-					<iframe width="100%" height="520" frameborder="0" src="http://javierarce.com/spotimap/" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen=""></iframe>
+					<iframe width="100%" height="520" frameborder="0" src="https://team.cartodb.com/u/stuartlynn/viz/10e31f54-6d67-11e5-97c3-0ea31932ec1d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 				</section>
 
 				<section>
-						<h2>Choropleth</h2>
-						<iframe width='100%' height=520 frameborder='0' src='http://epi.yale.edu/pollution-map/'  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+					<h2>Maps online are a data compresion problem</h2>
+					<h3>Chris Whong's Taxi Data: 11Gb of taxi pick up and drop off's</h3>
 				</section>
 
 				<section>
-					<h2>Directions of US rivers</h2>
-					<iframe width='100%' height=520 frameborder='0' src='http://team.cartodb.com/u/andrew/viz/4ab4039a-7e22-11e4-9432-0e853d047bba/embed_map?utm_content=bufferfcf21&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer'  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+					<h2>11 Million taxi drop offs and pick ups</h2>
+					<video autoplay=true src='https://s3-us-west-2.amazonaws.com/cartodb-talk-data/TaxiSmall.mp4' controls></video>
 				</section>
 
 				<section>
-					<h2>Ages of buildings in Chicago</h2>
-					<iframe width='100%' height='520' frameborder='0' src='https://team.cartodb.com/u/stuartlynn/viz/4b63a4e6-110f-11e5-8ac5-0e8dde98a187/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+					<iframe width="100%" height="520" frameborder="0" src="https://cartodb.com/torque/" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 				</section>
 
 				<section>
-					<iframe width='100%' height='520' frameborder='0' src='http://infoamazonia.org/projects/fire/' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+					<img src="https://cartodb-libs.global.ssl.fastly.net/cartodb.com/files/img/layout/torque/graphic.4fab1875.png" alt="Torque" width="418" height="482">
 				</section>
 
 				<section>
-					<h2>Even non-earth based maps</h2>
-					<iframe width="100%" height="520" frameborder="0" src="//hbernberg.cartodb.com/viz/76e286d4-fbab-11e3-b014-0e73339ffa50/embed_map?title=false&amp;description=true&amp;search=false&amp;shareable=false&amp;cartodb_logo=false&amp;layer_selector=true&amp;legends=false&amp;scrollwheel=true&amp;fullscreen=false&amp;sublayer_options=1%7C1%7C1%7C1&amp;sql=&amp;zoom=3&amp;center_lat=0&amp;center_lon=0" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen=""></iframe>
-				</section>
-
-
-
-				<section>
-					<h2>Where am I?</h2>
-					<p>
-						At the Girl Develop It meet up.
-					</p>
+					<h2>URL Schema</h2>
+					<pre><code>
+http://host.com/{z}/{x}/{y}.torque.[json|bin]
+					</code></pre>
 				</section>
 
 				<section>
-					<h2>Where am I?</h2>
-					<p>
-						111 N. Canal St., Suite 455, Chicago, IL
-					</p>
-				</section>
-
-				<section>
-					<h2>Where am I?</h2>
-					<p>
-						41.883739, -87.639441
-					</p>
-				</section>
-
-				<section>
-					<h2>Where am I?</h2>
-					<p>
-						41° 53' 1.4604'' N, 87° 38' 21.9876'' W
-					</p>
-
-					<p>
-						Reads as 41 hours 53 minues 1.4 Seconds North, 87 degrees 28 minutes 21 seconds west
-					</p>
-				</section>
-
-				<section>
-					<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Latitude_and_Longitude_of_the_Earth.svg/2000px-Latitude_and_Longitude_of_the_Earth.svg.png'></img>
-				</section>
-				<section>
-
-					<iframe width='100%' height=520 frameborder='0' src='http://bl.ocks.org/mbostock/raw/3711652/'  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-					<a href='http://bl.ocks.org/mbostock/3711652/'>http://bl.ocks.org/mbostock/raw/3711652/</a>
-				</section>
-
-				<section>
-					<h1>Components of web mapping</h1>
+					<h2>Tile Format</h2>
+					<pre><code>
+[
+	{
+		x: 25,
+		y: 77,
+		values: [ 1, 10 ],
+		steps: [214, 215]
+	},
+	...
+]
+					</code></pre>
 				</section>
 
 
 				<section>
-					<h2>Maps in the age of the internet</h2>
-						<img width='100%' src='http://softeclipse.com/wp-content/uploads/2012/08/MapQuest-713689.jpg'></img>
-				</section>
-
-
-				<section>
-					<h2>Map Tiles</h2>
-					<p>https://a.tiles.mapbox.com/v4/mapbox.streets/0/0/0.png</p>
-					<img src='https://a.tiles.mapbox.com/v4/mapbox.streets/0/0/0.png?access_token=pk.eyJ1IjoidHJpc3RlbiIsImEiOiJuZ2E5MG5BIn0.39lpfFC5Nxyqck1qbTNquQ' />
-				</section>
-
-				<section class='tiles'>
-					<h2>Map Tiles</h2>
-					<div >
-						<p>1/0/0</p>
-						<img src='https://a.tiles.mapbox.com/v4/mapbox.streets/1/0/0.png?access_token=pk.eyJ1IjoidHJpc3RlbiIsImEiOiJuZ2E5MG5BIn0.39lpfFC5Nxyqck1qbTNquQ' />
-					</div>
-					<div>
-						<p>1/1/0</p>
-						<img src='https://a.tiles.mapbox.com/v4/mapbox.streets/1/1/0.png?access_token=pk.eyJ1IjoidHJpc3RlbiIsImEiOiJuZ2E5MG5BIn0.39lpfFC5Nxyqck1qbTNquQ' /><br/>
-					</div>
-					<div>
-						<p>1/0/1</p>
-						<img src='https://a.tiles.mapbox.com/v4/mapbox.streets/1/0/1.png?access_token=pk.eyJ1IjoidHJpc3RlbiIsImEiOiJuZ2E5MG5BIn0.39lpfFC5Nxyqck1qbTNquQ' />
-					</div>
-					<div>
-						<p>1/1/1</p>
-						<img src='https://a.tiles.mapbox.com/v4/mapbox.streets/1/1/1.png?access_token=pk.eyJ1IjoidHJpc3RlbiIsImEiOiJuZ2E5MG5BIn0.39lpfFC5Nxyqck1qbTNquQ' />
-					</div>
-				</section>
-
-				<section>
-					<h2>Map Tiles - more info</h2>
-					<a href='http://wiki.openstreetmap.org/wiki/Slippy_map_tilenames'>http://wiki.openstreetmap.org/wiki/Slippy_map_tilenames	</a>
-				</section>
-
-				<section>
-					<h2>Base maps</h2>
-					<iframe width='100%' height=520 frameborder='0' src='http://leaflet-extras.github.io/leaflet-providers/preview/index.html'  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-					<a href='http://leaflet-extras.github.io/leaflet-providers/preview/index.html'>http://leaflet-extras.github.io/leaflet-providers/preview/index.html</a>
-				</section>
-
-				<section>
-					<h2>Vector data</h2>
-					<iframe frameborder="0" width="100%" height="600" src="http://bl.ocks.org/d/8f5dccb39cf800a7bac5"></iframe>
-				</section>
-
-				<section>
-					<h2>Vector data</h2>
-					<ul>
-						<li>Can be used to mark out regions</li>
-						<li>Can be used to mark out points</li>
-						<li>Provide interaction to your maps</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Leaflet</h2>
-					<img style='border:none' src='http://leafletjs.com/docs/images/logo.png' width=100%></img>
-					<a href='http://leafletjs.com/'>http://leafletjs.com/</a>
-				</section>
-
-				<section>
-					<h2>Leaflet - starter kit</h2>
-					<a href='https://github.com/cugos/leaflet-starter'>https://github.com/cugos/leaflet-starter</a>
-					<ul>
-							<li>Clone/download the starter kit</li>
-							<li>Select a base map from <a href='http://leaflet-extras.github.io/leaflet-providers/preview/index.html'>http://leaflet-extras.github.io/leaflet-providers/preview/index.html</a></li>
-							<li>Update the starting location to lat: 41.8814 long: -87.6337</li>
-							<li>Update the base map on leaflet</li>
-							<li>Add some vector data from <a href='https://gist.github.com/stuartlynn/191ec08b2d2fd9e34696'>here</a></li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Leaflet </h2>
-					<ul>
-							<li><a href='https://github.com/cugos/leaflet-starter/blob/master/data.js'>Data.js</a> contains some vector data</li>
-							<li>In <a href='https://github.com/cugos/leaflet-starter/blob/master/index.html#L18'>index.hmtl</a> include leaflet.js and leaflet.css.</li>
-							<li>Also make sure to have a div with id='map'</li>
-							<li<a href='https://github.com/cugos/leaflet-starter/blob/master/js/site.js#L4'>site.js</a> lets you set the inital location and base layer</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Open Layers</h2>
-					<img width="300px" src='http://openlayers.org/assets/theme/img/logo70.png'></img>
-					<p>Can be more powerful but can also be more complicated</p>
-					<a href='http://openlayers.org/'>http://openlayers.org/</a>
-				</section>
-
-				<section>
-					<h2>Google maps</h2>
-					<img width="20%" src='https://lh4.ggpht.com/99bsLKJEN2B6T-WI63UYU7FG8mEXOGxbif6Lsgfzs_pIDs_2RxJSiOVaMhMhRmciizk=w300'></img>
-					<p>Pretty straight forward but can be restrictive</p>
-					<a href='https://developers.google.com/maps/?hl=en'>https://developers.google.com/maps/?hl=en</a>
-				</section>
-
-				<section>
-					<h1>Where to find data to map</h1>
-				</section>
-
-				<section>
-					<h2>Data formats - csv</h2>
-					<p> Table of points with attributes</p>
-					<table class="reveal">
-						<tr>
-							<th>lat</th>
-							<th>long</th>
-							<th>population</th>
-							<th>area</th>
-    				<tr>
-      				<td>-20.23</td>
-      				<td>10.443</td>
-      				<td>300</td>
-							<td>20</td>
-    				</tr>
-
-						<tr>
-      				<td>0.33</td>
-      				<td>-23.333</td>
-      				<td>55</td>
-							<td>2303</td>
-    				</tr>
-						<tr>
-      				<td>33.33</td>
-      				<td>-2.333</td>
-      				<td>123</td>
-							<td>2</td>
-    				</tr>
-  				</table>
-				</section>
-
-
-				<section>
-					<h2>Data formats - csv</h2>
-					<p> Table of points with attributes</p>
-					<table class="reveal">
-						<tr>
-							<th>address</th>
-							<th>population</th>
-							<th>area</th>
-    				<tr>
-      				<td>180 South Michigan, Chicago, IL</td>
-      				<td>300</td>
-							<td>20</td>
-    				</tr>
-
-						<tr>
-      				<td>20 South Clark, Chicago, IL</td>
-      				<td>55</td>
-							<td>2303</td>
-    				</tr>
-						<tr>
-      				<td>1817 South Allport, Chicago, IL</td>
-      				<td>123</td>
-							<td>2</td>
-    				</tr>
-  				</table>
-				</section>
-
-				<section>
-					<h2>Note about geocoders</h2>
-					<p>Geocoders are peices of software that turn adresses in to locations</p>
-					<p>MapZen's pelias <a href='https://mapzen.com/pelias'>https://mapzen.com/pelias</a></p>
-					<p>MapBox geocoder <a href='https://www.mapbox.com/developers/api/geocoding/'>https://www.mapbox.com/developers/api/geocoding/</a></p>
-					<p>Google has an excelent geocoder but it can be restrictive</p>
-				</section>
-
-				<section>
-					<h2>Data formats - geojson</h2>
-
-					<iframe width='100%' height=600px src='http://geojson.io/'></iframe>
-
-					<a href='http://geojson.io/'>http://geojson.io/</a>
-				</section>
-
-				<section>
-					<h2>Data formats - kml</h2>
-					<p>Used a lot by google maps</p>
-					<p>Usually contains vector data and sometimes image overlays</p>
-				</section>
-
-				<section>
-					<h2>Data formats - shapefiles</h2>
-					<p>Vector data format from ESRI</p>
-					<p>Usually a zip file containing multiple files with endings like .shp .shx .dbf .sbn</p>
-				</section>
-
-				<section>
-					<h2>Sources of Data: Natural Earth</h2>
-					<iframe width='100%' height=520 frameborder='0' src='http://www.naturalearthdata.com/'  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-					<a href='http://www.naturalearthdata.com/'>http://www.naturalearthdata.com/</a>
-				</section>
-
-				<section>
-					<h2>Sources of Data: Chicago public data portal</h2>
-					<img height=400 src='images/citydataportal.png' />
-					<a href='https://data.cityofchicago.org/'>https://data.cityofchicago.org</a>
-				</section>
-
-				<section>
-					<h2>Sources of Data: Data.gov</h2>
-					<img src='images/datagov.png' />
-					<a href='http://www.data.gov/'>http://www.data.gov/</a>
-				</section>
-
-				<section>
-					<h2>Sources of Data: Fulcrum</h2>
-					<iframe width='100%' height=520 frameborder='0' src='http://fulcrumapp.com/'  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-					<a href='http://fulcrumapp.com/'>http://fulcrumapp.com/</a>
-				</section>
-
-				<section>
-					<h2>Sources of Data: Epicollect</h2>
-					<iframe width='100%' height=520 frameborder='0' src='http://www.epicollect.net/'  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-					<a href='http://www.epicollect.net/'>http://www.epicollect.net/</a>
-				</section>
-
-				<section>
-					<h2>Sources of Data: Extract your location history from google</h2>
-					<img src='images/googlelocdata.png'></img>
-					<a href='https://www.google.com/maps/timeline'>https://www.google.com/maps/timeline</a>
-				</section>
-
-
-				<section>
-					<h1>Mapping Platforms</h1>
-					<p>Going to need this file: <a href='https://github.com/auremoser/gdi-webmap/blob/master/data/libraries.kml'>libraries.kml</a></p>
-				</section>
-
-				<section>
-					<h2>Github</h2>
-					<p><a href='https://help.github.com/articles/mapping-geojson-files-on-github/'>https://help.github.com/articles/mapping-geojson-files-on-github/</a></p>
-					<ul>
-						<li>Upload a geojson file as a gist <a href='http://eric.clst.org/wupl/Stuff/gz_2010_us_040_00_500k.json'>Try this one</a></li>
-						<li>Git hub will automatically create a map</li>
-						<li>Use the embed link to get it on to your website</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Map Box</h2>
-					<ul>
-						<li>Go to <a href='https://www.mapbox.com'>https://www.mapbox.com</a> </li>
-						<li>Create an account</li>
-						<li>Go to data</li>
-						<li>Upload libraries.kml</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>CartoDB</h2>
-					<ul>
-						<li>Going to make a map showing pothole reports in Chicago overlayed on bike tracks</li>
-						<li><a href='https://data.cityofchicago.org/Service-Requests/311-Service-Requests-Pot-Holes-Reported/7as2-ds3y'>Pot Hole data</a>
-						<li><a href=https://data.cityofchicago.org/Service-Requests/2015PotholeRequests/scju-5kky>Pot Hole data</a></li>
-				</section>
-
-				<section>
-					<h2>CartoDB under the hood</h2>
-					<p>We can use the editor on CartoDB to make most maps</p>
-					<p>Under the hood what CartoDB is doing is combining an SQL query to select data with some CartoCSS to style it</p>
-					<p>You can write these directly to create really powerful applications</p>
-				</section>
-
-				<section>
-					<h2>Data</h2>
-					<img src='images/dataView.png'/>
-				</section>
-
-<section>
-	<h2>Query</h2>
-	<pre><code>
-SELECT * FROM buildings where shape_area > 100
-	</pre></code>
-</section>
-
-
-
-
-<section>
-	<h2>Carto CSS</h2>
-	<pre><code>/** choropleth visualization */
-
-#buildings{
-polygon-fill: #91003F;
-polygon-opacity: 0.8;
-line-color: #FFF;
-line-width: 0;
-line-opacity: 1;
+					<h2>Metadata</h2>
+					<pre><code>
+{
+	start: 0,
+	end: 100,
+	resolution: 2
+	# scale: 1/resolution,
+	data_steps: 365,
+	column_type: "number"
+	"minzoom": 0,
+	"maxzoom": 11,
+	"tiles": [
+		'http://a.host.com/{z}/{x}/{y}.torque.json',
+		'http://b.host.com/{z}/{x}/{y}.torque.json',
+		'http://c.host.com/{z}/{x}/{y}.torque.json',
+		'http://d.host.com/{z}/{x}/{y}.torque.json'
+	],
+	"bounds": [ -180, -85.05112877980659, 180, 85.0511287798066 ]
 }
-#buildings [ year_built <= 2013] {
-polygon-fill: #F1EEF6;
-}
-#buildings [ year_built <= 1990] {
-polygon-fill: #D4B9DA;
-}
-#buildings [ year_built <= 1967] {
-polygon-fill: #C994C7;
-}
-#buildings [ year_built <= 1944] {
-polygon-fill: #DF65B0;
-}
-#buildings [ year_built <= 1920] {
-polygon-fill: #E7298A;
-}
-#buildings [ year_built <= 1897] {
-polygon-fill: #CE1256;
-}
-#buildings [ year_built <= 1874] {
-polygon-fill: #91003F;
-}
-	</code></pre>
-</section>
+					</code></pre>
+				</section>
 
-<section>
-				<h3>Cartodb.js</h3>
-				<h2>Getting it on to your site</h2>
-				<pre><code>
-<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
-<script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
-<div id="map"></div>
-<script>
-window.onload = function() {
-	cartodb.createVis('map', 'http://documentation.cartodb.com/api/v2/viz/2b13c956-e7c1-11e2-806b-5404a6a683d5/viz.json');
-}
-</script>
+				<section>
+					<a href="https://github.com/CartoDB/tilecubes/blob/master/2.0/spec.md">Full Torque Spec</a><br/>
+					<a href="https://github.com/CartoDB/torque">Torque.js</a>
+				</section>
 
 
-
-</code></pre>
-			</section>
-
-			<section>
-				<img src='images/VIZ.png'/>
-			</section>
-			<section>
-				<h2>Interacting with other code</h2>
-				<pre><code>
-// create a layer with 1 sublayer
-cartodb.createLayer(map, {
-user_name: 'mycartodbuser',
-type: 'cartodb',
-sublayers: [{
-	sql: "SELECT * FROM table_name",
-	cartocss: '#table_name {marker-fill: #F0F0F0;}'
-}]
-})
-.addTo(map) // add the layer to our map which already contains 1 sublayer
-.done(function(layer) {
-
-// create and add a new sublayer
-layer.createSubLayer({
-	sql: "SELECT * FROM table_name limit 200",
-	cartocss: '#table_name {marker-fill: #F0F0F0;}'
+				<section>
+					<pre><code>
+var map = new L.Map('map', {
+	zoomControl: true,
+	center: [40, 0],
+	zoom: 3
 });
 
-// change the query for the first layer
-layer.getSubLayer(0).setSQL("SELECT * FROM table_name limit 10");
+L.tileLayer('http://{s}.api.cartocdn.com/base-dark/{z}/{x}/{y}.png', {
+	attribution: 'CartoDB'
+}).addTo(map);
+
+// initialize a torque layer that uses the CartoDB account details and SQL API to pull in data
+var torqueLayer = new L.TorqueLayer({
+	user: 'viz2',
+	table: 'ow',
+	cartocss: CARTOCSS
 });
+
+torqueLayer.addTo(map);
+torqueLayer.play();
+					</code></pre>
+				</section>
+
+
+				<section>
+					<pre><code>
+Map {
+    -torque-time-attribute: "date";
+    -torque-aggregation-function: "count(cartodb_id)";
+    -torque-frame-count: 760;
+    -torque-animation-duration: 15;
+    -torque-resolution: 2;
+}
+#layer {
+    marker-width: 3;
+    marker-fill-opacity: 0.8;
+    marker-fill: #FEE391;
+    comp-op: "lighten";
+    [value > 2] { marker-fill: #FEC44F; }
+    [value > 3] { marker-fill: #FE9929; }
+    [value > 4] { marker-fill: #EC7014; }
+    [value > 5] { marker-fill: #CC4C02; }
+    [value > 6] { marker-fill: #993404; }
+    [value > 7] { marker-fill: #662506; }
+    [frame-offset = 1] { marker-width: 10; marker-fill-opacity: 0.05;}
+    [frame-offset = 2] { marker-width: 15; marker-fill-opacity: 0.02;}
+}
+
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Three limiting problems</h2>
+					<ul>
+						<li>No ability to style according to value appart from selectors</li>
+						<li>Only one variable to style on</li>
+						<li>Only one tied to CartoDB as a data source.</li>
+					</ul>
+				</section>
+
+
+				<section>
+					<a href='https://github.com/CartoDB/torque/tree/stuart_experimental/examples'>https://github.com/CartoDB/torque/tree/stuart_experimental/examples</a>
+				</section>
+
+				<section>
+					<pre><code>
+[value > 2] { marker-fill: #FEC44F; }
+[value > 3] { marker-fill: #FE9929; }
+[value > 4] { marker-fill: #EC7014; }
+[value > 5] { marker-fill: #CC4C02; }
+[value > 6] { marker-fill: #993404; }
+[value > 7] { marker-fill: #662506; }
+					</code></pre>
+					<h2>Ugly, verbose and not very easy to write</h2>
+				</section>
+
+				<section>
+					<h2>Really want functons that scale properties with data</h2>
+					<pre><code>
+marker-width: "scale_lin(value0,0.0,10,0,5)";
+marker-fill-opacity: "scale_sqrt(frame-offset,0,9,1,0)";
+marker-type: ellipse;
+marker-fill: "scale_lin(value1,0.1,5,blue,red)";
+					</code></pre>
+				</section>
+
+
+				<section>
+					<pre><code>
+-torque-aggregation-function: "count(cartodb_id)";
+					</code></pre>
+					<h3>Only have 1 dimension to style with :-(</h3>
+				</section>
+
+				<section>
+					<pre><code>
+-torque-aggregation-function: "avg(abs(depth));avg(mag)";
+					</code></pre>
+				</section>
+
+
+				<section>
+					<iframe width="100%" height="520" frameborder="0" src="http://bl.ocks.org/stuartlynn/raw/62270a1cc029e4f58cc5/" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+				</section>
+
+
+
+				<section>
+					<h2>Renderers</h2>
+					<p>Actually stored in <a href='https://github.com/CartoDB/torque/blob/point_labels/lib/torque/renderer/cartocss_render.js'>cartocss_render.js</a></p>
+				</section>
+
+				<section>
+					<h2>Text renderer</h2>
+					<pre><code>
+text-name: "{{value}}c";
+					</code></pre>
+				</section>
+
+				<section>
+					<pre><code>
+
+function renderText(ctx,st){
+	var width = st['marker-width']
+
+	var text = st['text-name']
+	var font = st['text-face-name'] ? st['text-face-name'] : 'Droid Sans Regular'
+	var textSize = st['text-size'] ? st['text-size'] : '10px'
+	var color    = st['text-fill'] ? st['text-fill'] : 'white'
+
+	// ctx.font = textSize+"px "+font
+	ctx.fillStyle = color
+	ctx.font= textSize + " " + font
+	ctx.fillText(text, -width/2.0, width/2.0 )
+}
+
+					</code></pre>
+				</section>
+
+
+
+				<section>
+					<h2>Text renderer</h2>
+					<iframe width="100%" height="520" frameborder="0" src="http://bl.ocks.org/stuartlynn/raw/dcb7ecc4c6e402b91395/" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+				</section>
+
+				<section>
+					<iframe width="100%" height="520" frameborder="0" src="http://bl.ocks.org/stuartlynn/raw/173e5021f5b3ef0b6073/" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+				</section>
+
+
+				<section>
+					<h2>Vector Renderer</h2>
+					<iframe width="100%" height="520" frameborder="0" src="http://bl.ocks.org/stuartlynn/raw/2737d488cbbd2574875c/" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+				</section>
+
+				<section>
+					<pre><code>
+function renderVector(ctx, st){
+    var angle = st['marker-angle']
+    var color = st['marker-stroke']
+    var mag   = st['marker-mag']
+    var max_mag   = st['marker-max-mag'] ?  st['marker-max-mag'] : 10
+    var max_line_length = st['marker-width']
+
+    var scaled_mag = (mag/max_mag)*max_line_length
+
+    ctx.lineWidth = 1
+
+    // ctx.strokeStyle='green'
+    // ctx.strokeRect(-max_line_length,-max_line_length,max_line_length*2,max_line_length*2)
+    ctx.translate(max_line_length/2.0, -max_line_length/2.0)
+    ctx.rotate(angle)
+    ctx.strokeStyle = color
+    ctx.moveTo(0,-max_line_length*2)
+    ctx.lineTo(0,max_line_length*2)
+    ctx.stroke();
+
+  }
+					</code></pre>
+				</section>
+
+				<section>
+					<img src='https://files.slack.com/files-pri/T024FUQQ8-F08ECPR46/voronoi_torque.gif'></img>
+				</section>
+
+
+			<section>
+				<h2>Providers</h2>
+				<p>Allow you to map a data source to CartoDB</p>
+			</section>
+
+			<section>
+				<h2>Redshift example</h2>
+				<video autoplay=true src='https://s3-us-west-2.amazonaws.com/cartodb-talk-data/TaxiSmall.mp4' controls></video>
+			</section>
+
+			<section>
+				<h2>See Chris Whong for info about a spark provider</h2>
+			</section>
+
+			<section>
+				<h1>Go hack on Torque.</h1>
+			</section>
+
+			<section>
+				<h2><a href='https://github.com/CartoDB/d3.cartodb'>d3.cartodb</a></h2>
+			</section>
+
+			<section>
+				<pre><code>
+var map = new L.Map("map", { center: [0, 0], zoom: 3 })
+var layer = new d3.cartodb.Layer({
+	user: 'rambo',
+	sql_api_template: 'http://rambo.cartodb.com/'
+});
+layer.addTo(map);
+layer.setSQL('select * form table');
+layer.setCartoCSS('#test { marker-fill: red; }');
 				</code></pre>
 			</section>
 
 			<section>
-				<h2>Just the data</h2>
 				<pre><code>
-var sql = new cartodb.SQL({ user: 'cartodb_user' });
-sql.execute("SELECT * FROM table_name WHERE id > {{id}}", { id: 3 })
-.done(function(data) {
-	console.log(data.rows);
-})
-.error(function(errors) {
-	// errors contains a list of errors
-	console.log("errors:" + errors);
-})
-				</pre></code>
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        dates: [1,2,3...],
+        values:[{pop: 10, crashes:2}, {pop:8, crashes:0}, {pop:8, crashes:1}...]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": ...
+      }
 
-				<pre><code>
-gem 'cartodb-rb-client'
+    }
+    }
+  ]
+}
 				</code></pre>
-
 			</section>
-			<section>
-				<h3>Stories</h3>
-				<h2>Odyssey.js</h2>
-				<img src='images/odyssey.png'/>
-			</section>
-
-
-
-			<section>
-				<iframe width='100%' height=520 frameborder='0' src='http://seeread.info/experiments/santiago/'  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-			</section>
-
-			<section>
-				<img src='http://i.imgur.com/i0c3bLL.gif'/>
-			</section>
-
-			<section>
-				<img src='images/oJS.png'/>
-			</section>
-
-
-<section>
-
-<h2>Other resources</h2>
-<ul>
-	<li>CartoDB Map Academy <a href='http://academy.cartodb.com/'>http://academy.cartodb.com/</a></li>
-	<li>CartoDB APIS <a href='http://docs.cartodb.com/cartodb-platform.html'>http://docs.cartodb.com/cartodb-platform.html</a></li>
-	<li>Similar talk in NY <a href='https://gist.github.com/stuartlynn/fd8f6cf5793ced2466ed'>here</a></li>
-	<li>Local data sources <a href='https://docs.google.com/spreadsheets/d/1R7O_FZLNB8VV5eoPDNATb-f0njjUsJwmz22cT_OB3fw/edit#gid=0'>here</a></li>
-	<li>National data sources <a href='https://etherpad.mozilla.org/fed-data'>here</a></li>
-</ul>
-
-</section>
-
-
-
-
-
-
-
 
 				<!-- Example of nested vertical slides -->
 
+			<section>
+				<pre><code>
+polygon-fill: lin_scale([0,100], ["red","blue"]);
+				</code></pre>
 
+				<pre><code>
+    this.renderer.addFunction('lin_scale', function (args, done) {
+      var domain    = args[0].value[0].value
+      var range     = args[1].value[0].value
+      done(function(v) {
+      return {
+        is: 'custom',
+        toString: function() {
+          return "(function() { if(!data.dates__uint16){return 'transparent';} var index; var prevDates = data.dates__uint16.map(function(d){return data['global']['step'] >= d }); var index = prevDates.indexOf(false) - 1; var val= data.vals__uint8[index]; var col =  d3.scale.linear().domain(["+domain+"]).range(["+range+"])(val); return col;  })();";
+        }
+      }
+    });
+  });
+
+				</code></pre>
+			</section>
+
+
+
+			<section>
+				<iframe width="100%" height="520" frameborder="0" src="http://torquie.cartodb.io/torque.html?title=Gun%20Shop%20vs%20Gun%20Control&table=gu_sheet1&user=andrew&join_col_input=state&type=most_searched&time=date&geom_type=hexstates&col_1=%23e47060&col_2=%236091bd&steps=auto&duration=20" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+			</section>
+
+			<section>
+				<a href="http://torquie-ny-buildings.cartodb.io/torque.html" >nyc buildings</a>
+			</section>
 			</div>
-
 		</div>
 
 
